@@ -120,6 +120,9 @@
     </Content>
     <Content Include="RunTests.AddIn" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.markdown" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
   <PropertyGroup>
     <PreBuildEvent>
